@@ -1370,7 +1370,7 @@ main form button[type=submit] { margin-top: 10px; }
 @media only screen and (max-width: 767px) { #header { position: fixed; top: 0; left: 0; width: 100%; height: 80px; padding-top: 15px; padding-bottom: 15px; background-color: #3f3f3f; }
   #header .line { position: absolute; left: 0; bottom: 0; width: 100%; text-align: center; }
   #header .social-btns { margin-bottom: 20px; }
-  #header .inner { display: none; position: absolute; top: 85px; top: 65px; left: 0; bottom: 0; width: 100%; padding-left: 15px; padding-right: 15px; }
+  #header .inner { display: none; position: initial; top: 85px; top: 65px; left: 0; bottom: 0; width: 100%; padding-left: 15px; padding-right: 15px; }
   #header.expanded { height: 100%; }
   #header.expanded > div { height: 100%; }
   #header.expanded .inner { display: block; padding-bottom: 85px; } }
