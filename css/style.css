@@ -1360,7 +1360,7 @@ main form button[type=submit] { margin-top: 10px; }
   #header.header-style-3 { position: absolute; top: 0; left: 0; width: 100%; }
   #header.header-style-3 #header-logo { float: none; margin-left: auto; margin-right: auto; margin-bottom: 2px; background: url(../img/logo_2.png); }
   #header.header-style-3 .inner { -webkit-transition: none; transition: none; }
-  #header.header-style-3 .inner.fixed { position: fixed; top: 0; left: 0; width: 100%; background-color: #3f3f3f; -webkit-transition: background-color 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; display:block;}
+  #header.header-style-3 .inner.fixed { position: initial; top: 0; left: 0; width: 100%; background-color: #3f3f3f; -webkit-transition: background-color 0.3s ease-in-out; transition: background-color 0.3s ease-in-out; display:block;}
   #header.header-style-3 #navigation { margin-top: 0; padding-top: 28px; padding-bottom: 28px; text-align: center; }
   #header.header-style-3 #navigation li:after { height: 3px; }
   #header.header-style-3 #navigation a { color: #fff; }
