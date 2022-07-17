@@ -119,7 +119,7 @@
 														</div>
 													</div>
 												</div>
-											<div class="col-xs-12 col-sm-6 col-md-4" style="float:left;">
+											<div class="col-xs-12 col-sm-6" style="float:left;">
 												<div class="service-item center-block">
 													<i class="ico ico-6"></i>
 								
@@ -168,13 +168,12 @@
 													<div class="inner">
 														<h3 class="title">Do this...</h3>
 														<p>
-															Give us a call or fill out the form. We want to talk to you about your situation. Do this now. If papers have been served, they are already preparing for a fight. Don't let them get ahead. If you are going to file, then use this time to get an advantage. Act now!
+															<strong>Give us a call or fill out the form.</strong> We want to talk to you about your situation. <strong>Do this now.</strong> If papers have been served, they are already preparing for a fight. Don't let them get ahead. If you are going to file, then use this time to get an advantage. Act now!
 														</p>
 													</div>
 												</div>
 											
 											</div>
-											<div class="col-xs-12 col-sm-6 col-sm-4 col-sm-2" style="float:left;">
 											</div>
 								
 											
@@ -310,7 +309,7 @@
 
 						<div class="col-xs-12 col-md-2 col-md-offset-4">
 							<div class="col-MB-30">
-								<a class="custom-btn medium dark-color" href="#" data-text="Details"><span>Free Consult</span></a>
+								<a class="custom-btn medium dark-color" href="#" data-text="Details"><span>Free Consultation</span></a>
 							</div>
 						</div>
 					</div>
@@ -327,7 +326,7 @@
 										<i class="ico ico-1"></i>
 					
 										<div class="inner">
-											<h3 class="title">Corruption Schemes</h3>
+											<h3 class="title">Divorce</h3>
 					
 											<p>
 												There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
@@ -341,7 +340,7 @@
 										<i class="ico ico-2"></i>
 					
 										<div class="inner">
-											<h3 class="title">Justice</h3>
+											<h3 class="title">Child Custody</h3>
 					
 											<p>
 												There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected
@@ -355,7 +354,7 @@
 										<i class="ico ico-3"></i>
 					
 										<div class="inner">
-											<h3 class="title">Legislation</h3>
+											<h3 class="title">Allomony</h3>
 					
 											<p>
 												Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
@@ -369,7 +368,7 @@
 										<i class="ico ico-4"></i>
 					
 										<div class="inner">
-											<h3 class="title">Court Hearings</h3>
+											<h3 class="title">Civil</h3>
 					
 											<p>
 												It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of
@@ -397,7 +396,7 @@
 										<i class="ico ico-6"></i>
 					
 										<div class="inner">
-											<h3 class="title">Independent Judges</h3>
+											<h3 class="title">Personal Injury</h3>
 					
 											<p>
 												The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33
@@ -428,7 +427,7 @@
 									If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
 								</p>
 
-								<a class="custom-btn medium" href="#" data-text="Details"><span>Free Consult</span></a>
+								<a class="custom-btn medium" href="#" data-text="Details"><span>Free Consultation</span></a>
 							</div>
 						</div>
 					</div>
@@ -502,7 +501,7 @@
 
 						<div class="col-xs-12 col-md-2">
 							<div class="col-MB-30">
-								<a class="custom-btn medium dark-color" href="#" data-text="Details"><span>Free Consult</span></a>
+								<a class="custom-btn medium dark-color" href="#" data-text="Details"><span>Free Consultation</span></a>
 							</div>
 						</div>
 					</div>
