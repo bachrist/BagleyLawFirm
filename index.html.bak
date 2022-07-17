@@ -321,7 +321,7 @@
 					<div class="services-container services-style-3">
 						<div class="services-container--inner">
 							<div class="row">
-								<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="col-xs-12 >
 									<div class="service-item center-block">
 										<i class="ico ico-1"></i>
 					
@@ -380,14 +380,14 @@
 					<div class="item first text matchHeight-item" data-mh="items-a">
 						<div class="outer v-align">
 							<div class="inner">
-								<h2 class="title">We are in Your Life</h2>
+								<h2 class="title">Our Commitment</h2>
 
 								<p>
-									There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+									At our firm, we are fond of saying that the most important case we have is "yours." We empathize  that no issue, no problem, is more important to a client than the obstacle he or she is presently fighting to overcome.
 								</p>
 
 								<p>
-									If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the
+									After an initial consultation, we will return your calls promptly, answer your questions accurately, and work arduously on your behalf to successfully resolve your legal issue.
 								</p>
 
 								<a class="custom-btn medium" href="#" data-text="Details"><span>Free Consultation</span></a>
@@ -451,13 +451,29 @@
 			<a id="spy-practice" class="ancor"></a>
 			<section id="s-practices" class="section transparent with-border">
 				<div class="container">
-					<h2>Practice Area</h2>
+					<h2>Our Approach and Areas of Service</h2>
 
 					<div class="row">
 						<div class="col-xs-12 col-md-10">
 							<div class="col-MB-30">
 								<p style="font-size:15px;font-family: Rufina,serif;color:#9b9b9b">
-									The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+									Legal proceedings often seem overwhelming to those involved. At the Bagley Law Firm, LLC, we understand the difficulties and stress that legal issues bring, and our team is committed to providing each client with the individual attention, communication, and dedication they deserve.
+</p>
+									​
+								<p>
+									 
+									Our aggressive, disciplined approach to resolving your legal issues will produce the best-possible outcome, while generating the least amount of stress (and legal fees). You will find no stronger advocate as we aggressively stand up and fight to protect your family, finances, and freedom.
+
+									
+									​</p>
+									​
+								<p>
+
+									Our attorneys routinely appear in the counties of Adams, Arapahoe, Boulder, Clear Creek, Denver, Douglas, El Paso, Gilpin, Jefferson, Larimer, Morgan, Pueblo, Teller, Weld, and the counties of Eastern Colorado.
+								</p>
+									​
+								<p>
+									It is important that your attorney is familiar with the judges and the counties in which you appear.
 								</p>
 							</div>
 						</div>
