@@ -542,7 +542,7 @@ In addition to the emotional aspects of a family's dissolution, there are many i
 							<li class="slide">
 								<div class="text">
 									<p>
-										Some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet
+										Brian and his firm have represented me on a number of issues, both personal and professional. I can't say enough good about the quality, professionalism and reasonable fees. This firm is my "go-to" firm for all my needs.
 									</p>
 								</div>
 			
@@ -551,22 +551,22 @@ In addition to the emotional aspects of a family's dissolution, there are many i
 									<i class="icon-star active"></i>
 									<i class="icon-star active"></i>
 									<i class="icon-star active"></i>
-									<i class="icon-star"></i>
+									<i class="icon-star active"></i>
 								</div>
 			
 								<div class="author">
-									<img class="circled" src="/BagleyLawFirm/img/users_photos/1.png" height="84" width="84" alt="demo" />
+									<!--<img class="circled" src="/BagleyLawFirm/img/users_photos/1.png" height="84" width="84" alt="demo" /> -->
 			
-									<h3 class="name">Ann Gilbert</h3>
+									<h3 class="name">Doyle</h3>
 			
-									<h5 class="position">CEO / Vice president</h5>
+									<!--<h5 class="position">CEO / Vice president</h5> -->
 								</div>
 							</li>
 			
 							<li class="slide">
 								<div class="text">
 									<p>
-										2 Some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet
+										Brian is a smart, hard working lawyer, with amazing integrity. I'm so grateful to have had him represent me in my divorce. His team was proffessional, efficient and organized
 									</p>
 								</div>
 			
@@ -574,23 +574,23 @@ In addition to the emotional aspects of a family's dissolution, there are many i
 									<i class="icon-star active"></i>
 									<i class="icon-star active"></i>
 									<i class="icon-star active"></i>
-									<i class="icon-star"></i>
-									<i class="icon-star"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
 								</div>
 			
 								<div class="author">
-									<img class="circled" src="/BagleyLawFirm/img/users_photos/2.png" height="84" width="84" alt="demo" />
+									<!--<img class="circled" src="/BagleyLawFirm/img/users_photos/2.png" height="84" width="84" alt="demo" /> -->
 			
-									<h3 class="name">Andrew Dowson</h3>
+									<h3 class="name">Jim</h3>
 			
-									<h5 class="position">Art Directoar</h5>
+									<!--<h5 class="position">Art Directoar</h5>-->
 								</div>
 							</li>
 			
 							<li class="slide">
 								<div class="text">
 									<p>
-										3 Some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet
+										Brian Bagley and his law firm helped me file for divorce. My divorce was fairly easy in the fact that my ex and I didn't fight over much or have many shared assets. This law firm allowed me to do as much of the work as possible to save money but also made sure my best interests were always the priority. They followed up with regularly, checked in when needed but did not schedule pointless meetings or phone calls to raise the overall cost. In the end my divorce went smoothly, it was completed in just over 90 days and I received everything I asked for including my property, my retirement, and shared debt responsibility. I would definitely use this firm again and I recommend them on a regular basis. It is a little expensive but comparative and when compared to what could be lost in divorce it was a bargin.
 									</p>
 								</div>
 			
@@ -603,11 +603,11 @@ In addition to the emotional aspects of a family's dissolution, there are many i
 								</div>
 			
 								<div class="author">
-									<img class="circled" src="/BagleyLawFirm/img/users_photos/3.png" height="84" width="84" alt="demo" />
+									<!-- <img class="circled" src="/BagleyLawFirm/img/users_photos/3.png" height="84" width="84" alt="demo" /> -->
 			
-									<h3 class="name">John Smith</h3>
+									<h3 class="name">anonymous</h3>
 			
-									<h5 class="position">Art Directoar</h5>
+									<!--<h5 class="position">Art Directoar</h5> -->
 								</div>
 							</li>
 						</ul>
