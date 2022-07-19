@@ -55,7 +55,7 @@
 				background: #FFFFFF;
 				padding: 35px;
 				border-radius: 10px;
-				max-width: 380px !important;
+				
 				margin: 0 auto;
 				float: none;
 				z-index: 1111 !important;
@@ -239,18 +239,22 @@
 															   <div class="h2Center">
 																<h3 style="color:black;">Schedule Strategy Session</h3>
 																</div>
+																<div class="form-group col-sm-12">
+																	   <label for="Email" class="h4">Name*</label>
+																	   <input class="form-control" type="email" name="Email" placeholder="Enter your email" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
+																	   <div class="help-block with-errors"></div>
+																   </div>
 																   <div class="form-group col-sm-12">
 																	   <label for="Email" class="h4">Email*</label>
 																	   <input class="form-control" type="email" name="Email" placeholder="Enter your email" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
 																	   <div class="help-block with-errors"></div>
 																   </div>
 																   <div class="form-group col-sm-12">
-																	   <label for="Company Website" class="h4">Company*</label>
+																	   <label for="Company Website" class="h4">Phone*</label>
 																	   <input type="text" class="form-control" name="Company Website" placeholder="Enter your company website" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
 																	   <div class="help-block with-errors"></div>
 																   </div>
-																   <input type="hidden" name="campaign" id="formcampaign" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
-																  <input type="hidden" name="fromUrl" id="formurl" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
+																   
 																  
 																  <button type="submit" id="form-submit" class="btn-action">Request Strategy Session</button>
 																 <div id="msgSubmit" class="h3 text-center hidden"></div>
