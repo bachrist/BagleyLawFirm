@@ -60,7 +60,7 @@
 				margin: 0 auto;
 				float: none;
 				z-index: 1111 !important;
-				box-shadow: 0 5px 50px rgba(0, 0, 10, 0.2);
+				/*box-shadow: 0 5px 50px rgba(0, 0, 10, 0.2);*/
 			}
 
 			#contactForm label {
@@ -81,10 +81,13 @@
 				border-radius: 0;
 				border-bottom: 2px solid #b4becb;
 			}
+			#contactForm textarea {
+				width: 100%;
+			}
 
 			#contactForm .btn-action {
 				margin: 20px 0;
-				min-width: 100%;
+				
 			}
 			.form-control {
 				display: block;
@@ -196,7 +199,13 @@
 			}
 		</style>
 		
+		<script>
 		
+			function processFromEmail(showed) {
+				document.getElementById("email-subject").value = "IQLs - PPC - Defense Form Submission - " + showed.value;
+			}
+		
+		</script>
 		
 		
 	</head>
@@ -257,22 +266,32 @@
 															<h2 class="title" style="color: #C1AA81;text-align: center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i> (720) 386-4035</a></h2>
 															<div id=""></div>
 																<div class="hero-form">
-																  <form id="contactForm" data-toggle="validator" class="shake" action="https://formspree.io/f/mayvbker" method="POST">
+																  <form id="contactForm" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
 																   <div class="row">
 																   <div class="h2Center">
-																	<h2>Schedule Strategy Session!</h2>
 																	</div>
+																	<div class="form-group col-sm-12">
+																		   <label for="Name" class="h4">Name*</label>
+																		   <input onChange="processFromEmail(this)" type="text" class="form-control" name="Name" placeholder="Enter your name" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <div class="help-block with-errors"></div>
+																	   </div>
 																	   <div class="form-group col-sm-12">
 																		   <label for="Email" class="h4">Email*</label>
 																		   <input class="form-control" type="email" name="Email" placeholder="Enter your email" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
 																	   <div class="form-group col-sm-12">
-																		   <label for="Company Website" class="h4">Company*</label>
-																		   <input type="text" class="form-control" name="Company Website" placeholder="Enter your company website" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <label for="Phone Website" class="h4">Phone*</label>
+																		   <input type="telephone" class="form-control" name="telephone" placeholder="Enter your phone number" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <div class="help-block with-errors"></div>
+																	   </div>
+																	   <div class="form-group col-sm-12">
+																		   <label for="Phone Website" class="h4">More Info*</label>
+																		   <textarea rows="6" name="comment" id="comment" placeholder="How can we help?" data-op-validation-message="This field is required." data-op-url-mapping="" required=""></textarea>
 																		   <div class="help-block with-errors"></div>
 																	   </div>
 																	  
+																		<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Defense Form Submission">
 																	  <button type="submit" id="form-submit" class="btn-action">Schedule Strategy Session</button>
 																	 <div id="msgSubmit" class="h3 text-center hidden"></div>
 																

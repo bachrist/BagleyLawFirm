@@ -60,7 +60,7 @@
 				margin: 0 auto;
 				float: none;
 				z-index: 1111 !important;
-				box-shadow: 0 5px 50px rgba(0, 0, 10, 0.2);
+				/*box-shadow: 0 5px 50px rgba(0, 0, 10, 0.2);*/
 			}
 
 			#contactForm label {
@@ -81,10 +81,13 @@
 				border-radius: 0;
 				border-bottom: 2px solid #b4becb;
 			}
-
+			#contactForm textarea {
+				width: 100%;
+			}
+			
 			#contactForm .btn-action {
 				margin: 20px 0;
-				min-width: 100%;
+				
 			}
 			.form-control {
 				display: block;
@@ -197,7 +200,13 @@
 		</style>
 		
 		
+		<script>
 		
+		function processFromEmail(showed) {
+			document.getElementById("email-subject").value = "IQLs - PPC - Divorce Form Submission - " + showed.value;
+		}
+		
+		</script>
 		
 	</head>
 
@@ -255,8 +264,44 @@
 									
 														<div class="inner" style="width: 100%;background-color: white;padding: 10px;    padding-top: 20px;margin-bottom:50px;">
 															<h2 class="title" style="color: #C1AA81;text-align: center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i> (720) 386-4035</a></h2>
-									<div id="cr-form-FORba0525ac659b4682bc7ecca27fa8571c"></div>
-															<iframe allowtransparency="true" width="100%" height="500px" frameborder="0" src="https://bagleylawfirm.lawruler.com/webleadform.aspx?id=10" seamless="seamless"></iframe>
+															<div id=""></div>
+																<div class="hero-form">
+																  <form id="contactForm" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
+																   <div class="row">
+																   <div class="h2Center">
+																	</div>
+																	<div class="form-group col-sm-12">
+																		   <label for="Name" class="h4">Name*</label>
+																		   <input onChange="processFromEmail(this)" type="text" id="nameInput" class="form-control" name="Name" placeholder="Enter your name" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <div class="help-block with-errors"></div>
+																	   </div>
+																	   <div class="form-group col-sm-12">
+																		   <label for="Email" class="h4">Email*</label>
+																		   <input class="form-control" type="email" name="Email" placeholder="Enter your email" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <div class="help-block with-errors"></div>
+																	   </div>
+																	   <div class="form-group col-sm-12">
+																		   <label for="Phone Website" class="h4">Phone*</label>
+																		   <input type="telephone" class="form-control" name="telephone" placeholder="Enter your phone number" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <div class="help-block with-errors"></div>
+																	   </div>
+																	   <div class="form-group col-sm-12">
+																		   <label for="Phone Website" class="h4">More Info*</label>
+																		   <textarea rows="6" name="comment" id="comment" placeholder="How can we help?" data-op-validation-message="This field is required." data-op-url-mapping="" required=""></textarea>
+																		   <div class="help-block with-errors"></div>
+																	   </div>
+																	  
+																		<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Divorce Form Submission">
+																	  <button type="submit" id="form-submit" class="btn-action">Schedule Strategy Session</button>
+																	 <div id="msgSubmit" class="h3 text-center hidden"></div>
+																
+																	  
+																	   
+																	 </div>
+																	 
+																	 <div class="clearfix"></div>
+																   </form>
+																</div>
 														</div>
 													</div>
 												</div>
@@ -1088,7 +1133,7 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 		<div id="btn-to-top-wrap">
 			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="1500"></a>
 		</div>
-
+		
 		<script type="text/javascript" src="/BagleyLawFirm/js/main.min.js"></script>
 		<script type="text/javascript">
 			/*!
