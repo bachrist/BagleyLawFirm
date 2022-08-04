@@ -40,7 +40,10 @@
 		
 		
 		<style>
-			
+			.row {
+				margin-left: 0;
+				margin-right: 0;
+			}
 			#header.header-style-3 .inner.fixed {
 				position: initial;
 				top: 0;
@@ -55,7 +58,10 @@
 			}
 			#contactForm {
 				background: #FFFFFF;
-				padding: 15px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 1%;
+				padding-right: 1%;
 				
 				margin: 0 auto;
 				float: none;
@@ -182,6 +188,13 @@
 				color: #c1aa81;
 			}
 			
+			.noLeftRightPadding
+			{
+				padding-left:1%;
+				padding-right:1%;
+			}
+					
+			
 			
 			@media (min-width:1px)  { 
 				.heroI{
@@ -218,7 +231,23 @@
 			#s-feedback.feedback-style-1 .pattern {
 				opacity: 1;
 			}
-			
+			.blueTransition {
+				background-color:#047aed;
+				text-transform: capitalize;
+			}
+			.blueTransition:hover{
+				background-color:#C1AA81;
+			}
+			.button-action-custom{
+			    height: 42px;
+				padding: 0 30px;
+				text-align: center;
+				font-size: 12px;
+				font-weight: 600;
+				line-height: 40px;
+				letter-spacing: 1px;
+				margin: 25px 0;
+			}
 			
 		</style>
 		
@@ -236,7 +265,7 @@
 	<body class="home" data-spy="scroll" data-target="#navigation" data-offset="80" style="padding-top: 0px;">
 	 <!--<img src="/BagleyLawFirm/img/bg/bg1_1.jpg" style="position:absolute;top:0;" /> -->
 	<div class="heroI" >
-		<header id="header" class="header-style-3 clearfix" style="position: initial;background-color: #3F3F3F;">
+		<header id="header" class="header-style-3 clearfix" style="position: initial;background-color: #3F3F3F;border-bottom: 2px solid #C1AA81;height: 100%;">
 			<div style="text-align:center;color:white;">
 				<h1 style="margin-bottom:0px;">Bagley Law Firm, LLC</h1>
 
@@ -262,7 +291,7 @@
 						</div>
 
 						<div class="header-contact">
-							<span class="phone"><a href="tel:7203864035"><i class="icon-phone"></i>(720) 386-4035</a></span>
+							<span class="phone"><a href="tel:7203864035"><i class="icon-phone"></i></a></span><a href="tel:7203864035"><span style="color:#4A5B74">(720) 386-4035</span></a>
 
 							
 						</div>
@@ -285,39 +314,43 @@
 													<div class="formBorder">
 														
 									
-														<div class="inner" style="width: 100%;background-color: white;padding: 10px;    padding-top: 20px;">
-															<h2 class="title" style="color: #C1AA81;text-align: center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i> (720) 386-4035</a></h2>
+														<div class="inner" style="width: 100%;background-color: white;padding: 10px;    padding-top: 45px;">
+															<h3 style="color: #4A5B74;font-size: 30px;text-align: center;" class="">Colorado's Premier Divorce and Child Custody Attorneys</h3>
+															<div style="text-align:center;">
+																	<h2 class="title" style="color: #C1AA81;display: inline;text-align:center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i></a>												
+																<span style="color:#047aed;display: inline;"><a href="tel:7203864035"> (720) 386-4035</a></span></h2>
+															</div>
 															<div id=""></div>
 																<div class="hero-form">
-																  <form id="contactForm" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
+																  <form id="contactForm" class="noLeftRightPadding" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
 																   <div class="row">
 																   <div class="h2Center">
 																	</div>
-																	<div class="form-group col-sm-12">
+																	<div class="form-group col-sm-12 noLeftRightPadding">
 																		   <label for="Name" class="h4">Name*</label>
 																		   <input onChange="processFromEmail(this)" type="text" id="nameInput" class="form-control" name="Name" placeholder="Enter your name" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
-																	   <div class="form-group col-sm-12">
+																	   <div class="form-group col-sm-12 noLeftRightPadding">
 																		   <label for="Email" class="h4">Email*</label>
 																		   <input class="form-control" type="email" name="Email" placeholder="Enter your email" value="" required="required" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
-																	   <div class="form-group col-sm-12">
+																	   <div class="form-group col-sm-12 noLeftRightPadding">
 																		   <label for="Phone Website" class="h4">Phone*</label>
 																		   <input type="telephone" class="form-control" name="telephone" placeholder="Enter your phone number" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
-																	   <div class="form-group col-sm-12">
+																	   <div class="form-group col-sm-12 noLeftRightPadding" style="margin-bottom: 0;">
 																		   <label for="Phone Website" class="h4">More Info*</label>
 																		   <textarea rows="6" name="comment" id="comment" placeholder="How can we help?" data-op-validation-message="This field is required." data-op-url-mapping="" required=""></textarea>
 																		   <div class="help-block with-errors"></div>
 																	   </div>
-																	  
-																		<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Divorce Form Submission">
-																	  <button type="submit" id="form-submit" class="btn-action">Schedule Strategy Session</button>
-																	 <div id="msgSubmit" class="h3 text-center hidden"></div>
-																
+																		<div class="form-group col-sm-12 noLeftRightPadding" style="text-align:center;margin-bottom: 0;">
+																			<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Divorce Form Submission">
+																			<button type="submit" id="form-submit" data-text="SCHEDULE STRATEGY SESSION" class="custom-btn medium dark-color blueTransition" style="color: white;margin-top:30px;margin-bottom:25px;"><span>SCHEDULE STRATEGY SESSION</span></button>
+																			<div id="msgSubmit" class="h3 text-center hidden"></div>
+																		</div>
 																	  
 																	   
 																	 </div>
@@ -330,8 +363,9 @@
 												</div>
 												<div class="col-xs-12 col-sm-1" style="float:right;">
 												</div>
-											<div class="col-xs-12 col-sm-6" style="float: left;backdrop-filter: blur(3px) contrast(10%);padding-top: 10px;background-color: #4A5B74;">
-												<div class="service-item center-block" style="padding-left: 85px;">
+												
+											<div class="col-xs-12 col-sm-6" style="float: left;backdrop-filter: blur(3px) contrast(10%);padding-top: 10px;background-color: #4A5B74;border: 2px solid #C1AA81">
+												<div class="service-item center-block" style="padding-left: 85px;margin-top: 40px;">
 													<i class="ico ico-6"></i>
 								
 													<div class="inner">
@@ -380,10 +414,11 @@
 													<div class="inner">
 														<h3 class="title"><strong>Let’s Do This.</strong></h3>
 														<p>
-															<strong>Give us a call.</strong> If legal papers have been served, whether you want it or not, you’re involved in a fight. Don't make the mistake of waiting. And if you are in the unfortunate position of having to be the person to file for divorce, then use this time to get the advantage. If you know it's unavoidable, whatever the circumstances, act now.
+															<strong>Give us a call.</strong> If legal papers have been served, whether you want it or not, you’re involved in a fight. Don't make the mistake of waiting. And if you're in the unfortunate position of having to be the person to file for divorce, then use this time to get the advantage. If you know it's unavoidable, whatever the circumstances, act now.
 														</p>
 													</div>
 												</div>
+											
 											
 											</div>
 											</div>
@@ -506,6 +541,8 @@
 						margin-bottom:50px;
 					}
 				}
+				
+				
 			</style>
 
 			
@@ -531,7 +568,7 @@
 				</div>
 			</section>-->
 
-			<section class="section transparent clearfix">
+			<section class="section transparent clearfix" style="padding-bottom: 50px;">
 				<div class="container">
 					<div class="services-container services-style-3">
 						<div class="services-container--inner">
@@ -632,7 +669,7 @@
 			</section>
 
 			<a id="spy-about" class="ancor"></a>
-			<section class="special-section matchHeight-container clearfix">
+			<section class="special-section matchHeight-container clearfix" >
 				<div class="col-xs-12 col-md-6">
 					<div class="item first text matchHeight-item" data-mh="items-a">
 						<div class="outer v-align">
@@ -644,7 +681,7 @@
 
 								</p>
 
-								<a class="custom-btn medium" href="#" data-text="Schedule Strategy Session"><span>Schedule Strategy Session</span></a>
+								<a class="custom-btn medium blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="border-color: #c1aa81;"><span style="text-transform: capitalize;">SCHEDULE STRATEGY SESSION</span></a>
 							</div>
 						</div>
 					</div>
@@ -697,7 +734,7 @@
 
 							<div class="counter-item">
 								<h4 class="count-details">Passion & Drive:</h4>
-								<span class="count-static">Infinite</span>
+								<span class="count-static" style="color:#4A5B74">Infinite</span>
 								
 							</div>
 
@@ -713,7 +750,7 @@
 					
 
 					<div class="row">
-						<div class="col-xs-12 col-md-5">
+						<div class="col-xs-12 col-md-6">
 							<div class="col-MB-30">
 							<h2>Our Approach</h2>
 								<p style="font-size:15px;font-family: Rufina,serif;color:#9b9b9b;margin-top:0;margin-bottom:0;">
@@ -729,18 +766,17 @@
 									​</p>
 							</div>
 						</div>
-						<div class="col-xs-12 col-md-2">
-							<div class="col-MB-30">
-								<a class="custom-btn medium dark-color" href="#" data-text="Schedule Strategy Session"><span>Schedule Strategy Session</span></a>
-							</div>
-						</div>
-						<div class="col-xs-12 col-md-5">
+						
+						<div class="col-xs-12 col-md-6">
 							<div class="col-MB-30"><h2>Areas of Service</h2>
 								<p style="font-size:15px;font-family: Rufina,serif;color:#9b9b9b;margin-top:0;margin-bottom:0;">
 
 									Our attorneys routinely appear in the counties of Adams, Arapahoe, Boulder, Clear Creek, Denver, Douglas, El Paso, Gilpin, Jefferson, Larimer, Morgan, Pueblo, Teller, Weld, and the counties of Eastern Colorado. ​ It is important that your attorney is familiar with the judges and the counties in which you appear.
 
 								</p>
+								<div style="text-align:center;padding-top: 30px; width: 85%;">
+									<a class="custom-btn medium dark-color blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="color: white;"><span style="text-transform: capitalize;">SCHEDULE STRATEGY SESSION</span></a>
+								</div>
 							</div>
 						</div>
 
@@ -777,6 +813,54 @@
 									<!--<img class="circled" src="/BagleyLawFirm/img/users_photos/1.png" height="84" width="84" alt="demo" /> -->
 			
 									<h3 class="name">Doyle</h3>
+			
+									<!--<h5 class="position">CEO / Vice president</h5> -->
+								</div>
+							</li>
+							
+							<li class="slide">
+								<div class="text">
+									<p>
+										Brian was caring and sincere from the beginning of my case. I had interviewed and talked to 7 lawyers before coming to Brian and he was the only one that seemed to really be concerned about what I was going through.
+									</p>
+								</div>
+			
+								<div class="rating">
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+								</div>
+			
+								<div class="author">
+									<!--<img class="circled" src="/BagleyLawFirm/img/users_photos/1.png" height="84" width="84" alt="demo" /> -->
+			
+									<h3 class="name">Debbie G.</h3>
+			
+									<!--<h5 class="position">CEO / Vice president</h5> -->
+								</div>
+							</li>
+							
+							<li class="slide">
+								<div class="text">
+									<p>
+										The Bagley Law firm has done a great job representing me and doing what’s best for my son. They have been very patient – and persistent – when necessary. They have done whatever is necessary to make sure we got what we need.
+									</p>
+								</div>
+			
+								<div class="rating">
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+									<i class="icon-star active"></i>
+								</div>
+			
+								<div class="author">
+									<!--<img class="circled" src="/BagleyLawFirm/img/users_photos/1.png" height="84" width="84" alt="demo" /> -->
+			
+									<h3 class="name">Laura R.</h3>
 			
 									<!--<h5 class="position">CEO / Vice president</h5> -->
 								</div>
@@ -996,6 +1080,7 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 										</div>
 									</div>
 								</div>
+								<!--
 								<div class="col-xs-12 col-sm-6 col-md-4">
 									<div class="team-item center-block">
 										<div class="inner">
@@ -1020,7 +1105,7 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 										</div>
 									</div>
 								</div>
-					
+					-->
 								<div class="col-xs-12 col-sm-6 col-md-4">
 									<div class="team-item center-block">
 										<div class="inner">
@@ -1118,14 +1203,14 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 		<a id="spy-contacts" class="ancor"></a>
 		<footer id="footer" class="footer-style-3" style="background-color: #4a5b74;background-image: none;">
 			<div class="container">
-				<h3 class="title h2">Locations</h3>
+				
 		
 				<div class="row">
 				<div class="col-xs-12 col-sm-5 col-md-4">
 						<div class="footer-item">
 							
 							<address>
-								<span>Northern Colorado Office</span>
+								<h3 class="title h2">Northern Colorado Office</h3>
 								<span>The Evergreen Center<br /> 630 15th Ave.</span>
 								<span>Suite 300</span>
 								<span>Longmont, CO 80501</span>
@@ -1142,7 +1227,7 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 							
 							
 							<address>
-								<span>Denver Metro Office</span>
+								<h3 class="title h2">Denver Metro Office</h3>
 								<span>The Belmar Plaza<br /> 215 S. Wadsworth Blvd.</span>
 								<span>Suite 410</span>
 								<span>Lakewood, CO 80226</span>
