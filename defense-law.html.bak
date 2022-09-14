@@ -90,7 +90,7 @@
 			#contactForm textarea {
 				width: 100%;
 			}
-			
+
 			#contactForm .btn-action {
 				margin: 20px 0;
 				
@@ -188,13 +188,6 @@
 				color: #c1aa81;
 			}
 			
-			.noLeftRightPadding
-			{
-				padding-left:1%;
-				padding-right:1%;
-			}
-					
-			
 			
 			@media (min-width:1px)  { 
 				.heroI{
@@ -204,19 +197,22 @@
 			}
 			@media (min-width:961px)   { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 						.heroI{
-							background-image: url(/BagleyLawFirm/img/bg/bg1_1_2.jpg);
+							background-image: url(/BagleyLawFirm/img/bg/6_6_3.jpg?y=2);
 							background-repeat: no-repeat;
 							background-size: cover;
+							
+							
 							color: white;    
 						}
 			}
+			
 			h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 				font-family: lato-light,lato,sans-serif !important;
 			}
 			p, div {
 				font-family: lato-light,lato,sans-serif !important;
 			}
-			or
+		
 
 			body {
 				font-family: lato-light,lato,sans-serif !important;
@@ -248,17 +244,23 @@
 				letter-spacing: 1px;
 				margin: 25px 0;
 			}
+			.noLeftRightPadding
+			{
+				padding-left:1%;
+				padding-right:1%;
+			}
+
 			
 		</style>
 		
-		
 		<script>
 		
-		function processFromEmail(showed) {
-			document.getElementById("email-subject").value = "IQLs - PPC - Divorce Form Submission - " + showed.value;
-		}
+			function processFromEmail(showed) {
+				document.getElementById("email-subject").value = "IQLs - PPC - Defense Form Submission - " + showed.value;
+			}
 		
 		</script>
+		
 		
 	</head>
 
@@ -314,21 +316,21 @@
 													<div class="formBorder">
 														
 									
-														<div class="inner" style="width: 100%;background-color: white;padding: 10px;    padding-top: 45px;">
-															<h3 style="color: #4A5B74;font-size: 30px;text-align: center;" class="">Colorado's Premier Divorce and Child Custody Attorneys</h3>
+														<div class="inner" style="width: 100%;background-color: white;padding: 10px;   padding-top: 45px;">
+															<h3 style="color: #4A5B74;font-size: 30px;text-align: center;" class="">Colorado's Premier Criminal Defense Attorneys</h3>
 															<div style="text-align:center;">
-																	<h2 class="title" style="color: #C1AA81;display: inline;text-align:center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i></a>												
+																<h2 class="title" style="color: #C1AA81;display: inline;text-align:center;"><a href="tel:7203864035">Call Now: <i class="icon-phone"></i></a>												
 																<span style="color:#047aed;display: inline;"><a href="tel:7203864035"> (720) 386-4035</a></span></h2>
 															</div>
 															<div id=""></div>
 																<div class="hero-form">
-																  <form id="contactForm" class="noLeftRightPadding" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
+																  <form  id="contactForm" class="noLeftRightPadding" data-toggle="validator" class="shake" action="https://formspree.io/f/xbjwnnkq" method="POST">
 																   <div class="row">
 																   <div class="h2Center">
 																	</div>
 																	<div class="form-group col-sm-12 noLeftRightPadding">
 																		   <label for="Name" class="h4">Name*</label>
-																		   <input onChange="processFromEmail(this)" type="text" id="nameInput" required="required" class="form-control" name="Name" placeholder="Enter your name" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <input onChange="processFromEmail(this)" type="text" class="form-control" name="Name" placeholder="Enter your name" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
 																	   <div class="form-group col-sm-12 noLeftRightPadding">
@@ -338,16 +340,17 @@
 																	   </div>
 																	   <div class="form-group col-sm-12 noLeftRightPadding">
 																		   <label for="Phone Website" class="h4">Phone*</label>
-																		   <input type="telephone" class="form-control" name="telephone" placeholder="Enter your phone number" required="required" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
+																		   <input type="telephone" class="form-control" name="telephone" placeholder="Enter your phone number" value="" data-op-validation-message="This field is required." data-op-url-mapping="">
 																		   <div class="help-block with-errors"></div>
 																	   </div>
 																	   <div class="form-group col-sm-12 noLeftRightPadding" style="margin-bottom: 0;">
 																		   <label for="Phone Website" class="h4">More Info*</label>
-																		   <textarea rows="6" name="comment" id="comment" placeholder="How can we help?" required="required" data-op-validation-message="This field is required." data-op-url-mapping="" required=""></textarea>
+																		   <textarea rows="6" name="comment" id="comment" placeholder="How can we help?" data-op-validation-message="This field is required." data-op-url-mapping="" required=""></textarea>
 																		   <div class="help-block with-errors"></div>
 																	   </div>
 																		<div class="form-group col-sm-12 noLeftRightPadding" style="text-align:center;margin-bottom: 0;">
-																			<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Divorce Form Submission">
+																			<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Defense Form Submission">
+																			<!--<a class="custom-btn medium blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="border-color: #c1aa81;"><button type="submit" id="form-submit" class="btn-action" style="text-transform: capitalize;">SCHEDULE STRATEGY SESSION</button></a>-->
 																			<button type="submit" id="form-submit" data-text="SCHEDULE STRATEGY SESSION" class="custom-btn medium dark-color blueTransition" style="color: white;margin-top:30px;margin-bottom:25px;"><span>SCHEDULE STRATEGY SESSION</span></button>
 																			<div id="msgSubmit" class="h3 text-center hidden"></div>
 																		</div>
@@ -363,17 +366,15 @@
 												</div>
 												<div class="col-xs-12 col-sm-1" style="float:right;">
 												</div>
-												
-											<div class="col-xs-12 col-sm-6" style="float: left;backdrop-filter: blur(3px) contrast(10%);padding-top: 10px;background-color: #4A5B74;border: 2px solid #C1AA81">
+											<div class="col-xs-12 col-sm-6" style="float: left;backdrop-filter: blur(3px) contrast(10%);padding-top: 10px;background-color: #4A5B74;    border: 2px solid #C1AA81;">
 												<div class="service-item center-block" style="padding-left: 85px;margin-top: 40px;">
 													<i class="ico ico-6"></i>
 								
 													<div class="inner">
-														<h3 class="title">Facing a Divorce?</h3>
+														<h3 class="title">Facing Criminal Allegations?</h3>
 								
 														<p>
-															Everything is at stake. Your children, your finances, your lifestyle. The things you have worked so hard to obtain are up  for grabs. Does a lifetime of alimony or weekend visitations with your kids sound scary? Well, it is.
-
+															Everything is at stake: your family, your finances, your very freedom. Indeed, your reputation and perhaps your employment are now in jeopardy. All because of one bad decision you might’ve made, or because of one wrongful accusation. Does the idea of serving jail time – or worse, prison – sound scary? Well, it is.
 														
 															</p>
 															
@@ -387,7 +388,7 @@
 														<h3 class="title">Don’t Go it Alone!</h3>
 								
 														<p>
-															Imagine your best outcome. It may be a clean break, a fair deal, or something in between. Although it might feel out of reach, if you do what’s necessary, you can still retire how you always dreamed, be the parent you always strived to be, and find a way to rebuild your life and find happiness.
+															Imagine your worst outcome. Now, don’t let it happen; don’t attempt to resolve the situation on your own! Just as you wouldn’t attempt to fix a cavity or remove your appendix without a qualified expert, don’t attempt to resolve your legal issues without an attorney.
 														</p>
 													</div>
 												</div>
@@ -400,7 +401,7 @@
 													<div class="inner">
 														<h3 class="title">Let Us Protect You.</h3>
 														<p>
-															With hundreds of years of cumulative experience among our attorneys, there’s nothing we haven’t seen. Our firm has dealt with thousands of divorce and child custody cases. Tap into our expertise so you’re well-equipped to handle whatever life throws at you over the coming months. 
+															With hundreds of years of cumulative experience among our attorneys, there’s nothing we haven’t seen, no problem we can’t fix. Our firm has dealt with thousands of criminal cases. Tap into our expertise so you’re well-equipped to handle whatever the system throws at you. 
 														</p>
 													</div>
 												</div>
@@ -414,11 +415,10 @@
 													<div class="inner">
 														<h3 class="title"><strong>Let’s Do This.</strong></h3>
 														<p>
-															<strong>Give us a call.</strong> If legal papers have been served, whether you want it or not, you’re involved in a fight. Don't make the mistake of waiting. And if you're in the unfortunate position of having to be the person to file for divorce, then use this time to get the advantage. If you know it's unavoidable, whatever the circumstances, act now.
+															Give us a call. We can defend you! Whether you’ve actually been arrested or just handed a summons, know that you’re now involved in a fight that may have permanent, lasting, repercussions if not confronted appropriately and swiftly. Whether you want it or not, you’re involved in a legal battle that will likely determine your future. Now, let’s work to find a way to minimize the damage.
 														</p>
 													</div>
 												</div>
-											
 											
 											</div>
 											</div>
@@ -524,6 +524,10 @@
 					{
 						font-size: 60px;
 					}
+					
+					
+					
+					
 				}
 
 				@media only screen and (min-width: 1px)
@@ -541,8 +545,7 @@
 						margin-bottom:50px;
 					}
 				}
-				
-				
+		
 			</style>
 
 			
@@ -578,10 +581,10 @@
 										<i class="ico ico-4"></i>
 					
 										<div class="inner">
-											<h3 class="title">Divorce? Deal with it Head On.</h3>
+											<h3 class="title">Felony? We’ve Got Your Back.</h3>
 					
 											<p>
-												We understand the sensitive and all-too-often awkward circumstances that bring our clients to us; the breakdown of a family is hard for everyone involved. In fact, it may be the most painful experience you ever face. But from us there’s no judgment, just empathy and expertise. Rest assured, there’s light at the end of the tunnel.
+												When faced with serious criminal allegations, it’s vital to have an experienced and trusted lawyer at your side. Our criminal-defense attorneys – all recognized experts – cooperate and coordinate with one another to provide the best guidance, legal advice, protection of your rights, and overall dedicated legal defense – both in and out of Court.
 
 											</p>
 										</div>
@@ -595,11 +598,10 @@
 										<i class="ico ico-2"></i>
 					
 										<div class="inner">
-											<h3 class="title">Child Custody? Your Kids Need You.</h3>
+											<h3 class="title">Misdemeanor? No Problem.</h3>
 					
 											<p>
-												Divorce and child custody cases are especially hard on kids. Don’t let your soon-to-be-ex put them in the middle; your children aren’t pawns. There’s nothing our attorneys pride themselves on more than keeping kids safe through legal proceedings and beyond.
- 
+												We offer clients the utmost discretion when handling their criminal matters. Our attorneys understand that accidents happen, and mistakes are made. A handful of bad decisions do not define who you are, nor should they define your future. Nevertheless, you need protection, as well as an opportunity to make reparations, without being handed an unjust sentence at the hand of an unsympathetic or crusading prosecutor.
 											</p>
 										</div>
 									</div>
@@ -681,7 +683,7 @@
 
 								</p>
 
-								<a class="custom-btn medium blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="border-color: #c1aa81;"><span style="text-transform: capitalize;">SCHEDULE STRATEGY SESSION</span></a>
+								<a class="custom-btn medium blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="border-color: #c1aa81;"><span>SCHEDULE STRATEGY SESSION</span></a>
 							</div>
 						</div>
 					</div>
@@ -689,7 +691,7 @@
 
 				<div class="col-xs-12 col-md-6">
 					<div class="item second matchHeight-item" data-mh="items-a">
-						<div class="b-video" style="background-image: url(/BagleyLawFirm/img/bg/6_6.jpg);">
+						<div class="b-video" style="background-image: url(/BagleyLawFirm/img/bg/bg3_3.jpg?y=2);">
 							<div class="pattern"></div>
 
 							<!--<div class="v-align">
@@ -766,7 +768,6 @@
 									​</p>
 							</div>
 						</div>
-						
 						<div class="col-xs-12 col-md-6">
 							<div class="col-MB-30"><h2>Areas of Service</h2>
 								<p style="font-size:15px;font-family: Rufina,serif;color:#9b9b9b;margin-top:0;margin-bottom:0;">
@@ -774,7 +775,7 @@
 									Our attorneys routinely appear in the counties of Adams, Arapahoe, Boulder, Clear Creek, Denver, Douglas, El Paso, Gilpin, Jefferson, Larimer, Morgan, Pueblo, Teller, Weld, and the counties of Eastern Colorado. ​ It is important that your attorney is familiar with the judges and the counties in which you appear.
 
 								</p>
-								<div style="text-align:center;padding-top: 30px; width: 85%;">
+								<div style="text-align:center;padding-top: 30px;width: 85%;">
 									<a class="custom-btn medium dark-color blueTransition" href="#" data-text="SCHEDULE STRATEGY SESSION" style="color: white;"><span style="text-transform: capitalize;">SCHEDULE STRATEGY SESSION</span></a>
 								</div>
 							</div>
@@ -817,7 +818,6 @@
 									<!--<h5 class="position">CEO / Vice president</h5> -->
 								</div>
 							</li>
-							
 							<li class="slide">
 								<div class="text">
 									<p>
@@ -865,7 +865,6 @@
 									<!--<h5 class="position">CEO / Vice president</h5> -->
 								</div>
 							</li>
-			
 							<li class="slide">
 								<div class="text">
 									<p>
@@ -1244,7 +1243,7 @@ Phil Clark's talent for criminal defense is in his DNA, literally; litigating is
 		<div id="btn-to-top-wrap">
 			<a id="btn-to-top" class="circled" href="javascript:void(0);" data-visible-offset="1500"></a>
 		</div>
-		
+
 		<script type="text/javascript" src="/BagleyLawFirm/js/main.min.js"></script>
 		<script type="text/javascript">
 			/*!
