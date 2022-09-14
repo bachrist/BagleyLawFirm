@@ -1,0 +1,6 @@
+
+'https://www.bagleylawfirm.net/' has been registered.
+Use this site key in the HTML code your site serves to users.
+6LeZ694hAAAAAEr8MofKUMU44XhQbS1G9wtNtCuZ
+Use this secret key for communication between your site and reCAPTCHA.
+6LeZ694hAAAAAAF6wArjTgVYqnWJrrzgjMTUVKhJ
