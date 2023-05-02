@@ -19,6 +19,55 @@
 			color: #cccaca;
 			text-align: left;
 		}
+		.fa-star{
+		    color: #c1aa81;
+			
+			margin-left: -30px;
+		}
+		.list{
+		  list-style-type: none; /* Remove bullets */
+			padding: 30px; /* Remove padding */
+			margin: 0; /* Remove margins */
+		}
+		.hero-form{
+			margin-top: -80px;
+		}
+		#do{
+			padding: 140px 0 60px;
+		}
+		#services{
+			padding: 0px 0 0px;
+			background: #F5F1F1;
+		}
+		@media only screen and (max-width: 900px){
+			.hero-content {
+				color: #fff;
+				padding-bottom: 0px;
+			}
+		}
+		.noMargin{
+			margin-bottom:0px;
+		}
+		.form-contact2{
+			color: #242323;
+			margin-bottom: 15px;
+			font-weight: 600;
+		}
+		.form-contact2 a{
+			text-decoration: none;
+			font-weight: 800;
+			color: #9b6e0e;
+		}
+		.form-contact3{
+			color: #242323;
+			margin-bottom: 15px;
+			font-weight: 600;
+		}
+		.form-contact3 a{
+			text-decoration: none;
+			font-weight: 800;
+			color: white;
+		}
 	</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-872744500"></script>
@@ -56,19 +105,19 @@
                             <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="#commit">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#practice">Practice Areas</a>
+                            <a class="nav-link" href="#approach">Practice Areas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                            <a class="nav-link" href="#review">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Our Attorneys</a>
+                            <a class="nav-link" href="#team">Our Attorneys</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">Locations</a>
+                            <a class="nav-link" href="#hero">Locations</a>
                         </li>
                     </ul>
                 </div>
@@ -95,25 +144,24 @@
                             <div class="mb-3">
 							<div>
 								<h3>Northern Colorado Office</h3>
-								<p>The Evergreen Center<br />
+								<p class="noMargin">The Evergreen Center<br />
 									630 15th Ave.<br />
 									Suite 300<br />
 									Longmont, CO 80501</p>
+									<p class="form-contact"><a href="tel: (720) 547-2655">(720) 547-2655</a></p>
 							</div>
 						</div>
 						<div class="mb-3">
 							<div>
 								<h3>Denver Metro Office</h3>
-								<p>The Belmar Plaza<br />
+								<p class="noMargin">The Belmar Plaza<br />
 									215 S. Wadsworth Blvd.<br />
 									Suite 410<br />
 									Lakewood, CO 80226</p>
+									<p class="form-contact"><a href="tel: (720) 547-2655">(720) 547-2655</a></p>
 							</div>
 						</div>
-                            <div class="mb-3">
-								<input type="hidden" name="_subject" id="email-subject" value="IQLs - PPC - Divorce Form Submission">
-								<a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>
-                            </div>
+                            
                         
                         
                     </div>
@@ -186,7 +234,8 @@
                     </div>
                 </div>
                 <div class="col-md-7 text-end">
-                    <a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>
+                    <!--<a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>-->
+					<h4 class="form-contact2">Call Now: <a href="tel: (720) 547-2655">(720) 547-2655</a></h4>
                 </div>
                 <div class="col-md-12">
                     <div class="services-content">
@@ -233,7 +282,8 @@
                     <div class="commit-content">
                         <h2><span class="highlight">Our Commitment</span> to You.</h2>
                         <p>At our firm we’re fond of saying that the most important case we have is "yours." It’s that simple. After an initial consultation, we will return your calls promptly, answer your questions accurately, and work arduously on your behalf to successfully resolve your legal issues.</p>
-                        <a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>
+                        <!--<a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>-->
+						<h4 class="form-contact2">Call Now: <a href="tel: (720) 547-2655">(720) 547-2655</a></h4>
                     </div>
                 </div>
             </div>
@@ -293,7 +343,8 @@
                     <div class="area-content">
                         <h2>Areas of Service</h2>
                         <p>Our attorneys routinely appear in the counties of Adams, Arapahoe, Boulder, Clear Creek, Denver, Douglas, El Paso, Gilpin, Jefferson, Larimer, Morgan, Pueblo, Teller, Weld, and the counties of Eastern Colorado. ​ It is important that your attorney is familiar with the judges and the counties in which you appear.</p>
-                        <a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>
+                        <!--<a class="btn btn-cs" href="tel: (720) 547-2655">SCHEDULE STRATEGY SESSION</a>-->
+						<h4 class="form-contact3">Call Now: <a href="tel: (720) 547-2655">(720) 547-2655</a></h4>
                     </div>
                 </div>
             </div>
@@ -509,6 +560,42 @@
                             <button  type="button" data-bs-toggle="modal" data-bs-target="#phil-pop" class="btn btn-cs btn-cs-sm">Read More</button>
                         </div>
                     </div>
+                </div>				
+				 <div class="col-md-4">
+                    <div class="team-single">
+                        <div class="team-img">
+                            <img src="/images/desirae-square.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3>Desirae Vannorsdel</h3>
+                            <p>SENIOR ASSOCIATE ATTORNEY</p>
+                            <button  type="button" data-bs-toggle="modal" data-bs-target="#desirae-pop" class="btn btn-cs btn-cs-sm">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-single">
+                        <div class="team-img">
+                            <img src="/images/jessica-square.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3>Jessica E. Trillo</h3>
+                            <p>ASSOCIATE ATTORNEY</p>
+                            <button  type="button" data-bs-toggle="modal" data-bs-target="#jessica-pop" class="btn btn-cs btn-cs-sm">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-single">
+                        <div class="team-img">
+                            <img src="/images/nicholas-square.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="team-content">
+                            <h3>Nicholas De Castro</h3>
+                            <p>SENIOR ASSOCIATE ATTORNEY</p>
+                            <button  type="button" data-bs-toggle="modal" data-bs-target="#nicholas-pop" class="btn btn-cs btn-cs-sm">Read More</button>
+                        </div>
+                    </div>
                 </div>
                 
                 
@@ -533,6 +620,15 @@
                                 <p>FOUNDER & CHIEF COUNSEL</p>
                             </div>
                             <p>The founder and chief counsel of the Bagley Law Firm, LLC, Brian provides legal representation to businesses, families, and individuals. In addition to the practice of law, Brian served on City Council and as the Mayor of Longmont, CO for a decade of public service. Brian's other community activities include teaching at the Leeds School of Business at the University of Colorado at Boulder, as well as a professor for the university's prestigious Presidents Leadership Class, teaching upper-level courses on business, management, and leadership. Brian himself is a CU alumnus, having earned a Juris Doctor from CU's School of Law and a Master of Business Administration from the Leeds School of Business.</p>
+							
+							<p>
+							Brian began his professional career as a senior analyst and key member of the team that researched and wrote the New York Times Bestseller, Good to Great: Why Some Companies Make the Leap… and Others Don’t.  The best-selling hardback business book of all time, Good to Great has grossed more than $100 million in book sales alone.  As the only research analyst throughout the five-year project for its entirety, Brian performed the in-depth investigations, interviews, and analysis on market-leading companies to understand how they came to dominate their industries.  The research has been featured in the Wall Street Journal, Fortune, Business Week, Harvard Business Review, and Fast Company.</p>
+
+ 
+							<p>
+							Brian is a member of the Phi Alpha Delta Law Fraternity, and has been licensed to practice law in the state of Colorado since 1999.  His personal accomplishments include earning the rank of Eagle Scout from the Boy Scouts of America, speaking and writing fluent Spanish, writing and directing a full-length feature film distributed by Universal Vivendi, and volunteering – along with his wife – as a foster-adopt parent for Boulder County's Department of Housing and Human Services.  His foremost passion is his family.</p>
+							
+							
                         </div>
                     </div>
                 </div>
@@ -557,6 +653,18 @@
                                 <p>CRIMINAL DEFENSE</p>
                             </div>
                             <p>Tim Edstrom is a senior associate at The Bagley Law Firm, LLC.  While his current focus is in criminal defense and family law, he has extensive experience in a wide variety of legal fields that include workers' compensation, immigration, Social Security, civil litigation for personal injury, business disputes, civil rights violations, sexual harassment, and securities regulation.</p>
+							<p>		
+							When looking into Tim's legal background, one will find that Tim has litigated some of the most high-profile civil rights cases in Colorado history, including the contentious and highly-publicized Michael DeHerrera and Juan Vasquez police brutality lawsuits.
+							</p>
+							​
+							<p>
+							Alone or as lead counsel, he has conducted approximately 60 jury trials for cases that range from criminal defense of murder-in-the-first-degree to civil cases with millions of dollars on the line. However, Tim feels just at home when litigating child custody issues or misdemeanor matters before the local municipal magistrate.
+							</p>
+							​
+							<p>
+							A graduate of the University of Denver College of Law, and having graduated from the University of Colorado at Boulder with a degree in political science, Tim has deep roots in Colorado.  For instance, he has lived in Longmont, Colorado for over a quarter-century, where he currently lives with his wife, Christina, and two small children.
+							</p>
+​		
                         </div>
                     </div>
                 </div>
@@ -581,6 +689,22 @@
                                 <p>LITIGATION & PERSONAL INJURY</p>
                             </div>
                             <p>A senior managing associate at the Bagley Law Firm, LLC, Scott’s practice focuses on high-value civil matters, where his recent accomplishments include $1.58 million, $1.2 million, and $612,500 recoveries for his clients.</p>
+							
+							<p>
+							Scott’s cases include personal injury, appeals, civil rights issues, business disputes, and other matters which may require complex litigation. Scott also handles high-conflict family matters, to which he brings years of family law experience.
+							</p>
+							 
+							<p>
+							Born and raised on the Colorado Front Range, Scott attended Colorado State University, where he studied philosophy and English. Thereafter, Scott received a merit scholarship to attend the University of Colorado Law School in Boulder, Colorado. During his legal studies, he served as a member – and executive – to the law school’s Public Interest Student Association.
+							</p>
+							 
+							<p>
+							Before joining the Bagley Law Firm, LLC, Scott’s passion for social justice took him to New York City where he attended Columbia University, earning a master’s degree in human rights and graduating with a 3.94 GPA. Long before this, however, Scott had been an advocate against domestic violence, having worked with organizations such as the Bringing Justice Home Project, an anti-domestic-violence project within Crossroads Safehouse in Fort Collins, Colorado.
+							</p>
+							 
+							<p>
+							Among his non-legal accomplishments, Scott presently serves on Littleton's city council as its Mayor Pro Tem. He has hiked the Colorado Trail, a stunningly beautiful 500-mile stretch of Colorado wilderness. In his spare time, he also enjoys birding, fly fishing, and gardening. Scott and his wife have a daughter and son.   
+							</p>
                         </div>
                     </div>
                 </div>
@@ -605,6 +729,19 @@
                                 <p>FAMILY LAW, CRIMINAL DEFENSE, ESTATE & PROBATE</p>
                             </div>
                             <p>Charles E. Liken is a Senior Associate Attorney at the Bagley Law Firm, LLC. Charles specializes in Family Law, Criminal Defense, Estate Planning, & Probate. Charles is also a certified mediator as well as a Child and Family Investigator (i.e., a "CFI").</p>
+	
+							<p>	
+							Graduating from Sturm College of Law in 2002 from Denver University, Charles has built his career on taking the time to listen and giving an honest assessment of where things stand in his clients' cases.
+							</p>
+							<p>
+							Notably, Charles is a former Deputy District Attorney for the Colorado 12th District in Del Norte, Colorado. This brings numerous strengths to the table for his clients, including nearly a decade of experience as a Criminal Investigator. Furthermore, Charles has conducted both independent civil and criminal investigations, with a forte in the areas of social and human services, and civil rights.
+							</p>
+							<p>
+							In addition to his aforementioned credentials, Charles is a licensed real estate broker, bringing a strong foundational knowledge of the residential and commercial markets of Northern Colorado and Metro Denver.
+							</p>
+							<p>
+							Charles's brutally honest, genuine, and dedicated energy creates stability, which in turn allows him to serves his clients, preserving their families, finances, and freedoms; in short, Charles's straightforward attitude ensures the win his clients are looking for.
+							</p>
                         </div>
                     </div>
                 </div>
@@ -629,6 +766,20 @@
                                 <p>FAMILY LAW, ESTATE & PROBATE</p>
                             </div>
                             <p>Sam Townsend possesses years of experience in family law matters such as divorce, child custody, and grandparent rights, as well as estate planning and probate matters.</p>
+							<p>						
+							Sam Townsend possesses years of experience in family law matters such as divorce, child custody, and grandparent rights, as well as estate planning and probate matters.
+							</p>
+							<p>
+							Sam has practiced in numerous county and district courts across Colorado from the eastern plains to the western slope, as well as in the Colorado Court of Appeals.
+							</p>
+							​
+							<p>
+							Having received a B.A. in History at the University of Virginia, Sam went on to graduate from Vermont Law School where he was a committee chairman in the Environmental Law Society.
+							</p>
+							​
+							<p>
+							Before attending law school, Sam worked numerous seasons in tourism and the outdoor recreation industry.  Finishing what he starts, he is an Eagle Scout. Now, in his limited spare time, Sam can be found cycling and running throughout the mountains of Colorado, or being at home with his wife and child.
+							</p>
                         </div>
                     </div>
                 </div>
@@ -653,13 +804,157 @@
                                 <p>CRIMINAL DEFENSE</p>
                             </div>
                             <p>Phil Clark's talent for criminal defense is in his DNA, literally; litigating is a tradition in Phil Clark’s family, going back five generations, starting with Jonas J. Clark, who was appointed by Abraham Lincoln as the United States Attorney for District of Kansas City in 1861. Phil Clark is also a descendant of William Clark, the frontier explorer best recognized from his "partnership," Lewis and Clark.</p>
+							<p>
+							Living up to his namesake, Phil Clark attended and excelled in law school at the University of Denver and never once veered from his life's ambition -- to become a world-class trial attorney.
+							</p>
+							 
+							<p>
+							Unheard of in this century, before Phil was even licensed to practice law, he had successfully performed over 35 trials as a supervised student attorney. Then, when he passed the Colorado bar exam in 1990, he did so with a score so high that the second portion of the test was waived. 
+							</p>
+							 
+							<p>
+							Upon being admitted as a licensed attorney, Phil became a senior prosecutor and served in the district attorney's office for nearly two decade in the Metro-Denver area, where he prosecuted homicides, drug distribution, DUIs, domestic violence, and nearly every type of felony, misdemeanor, and traffic offense on the books. Phil became intimately familiar with the perspectives, procedures, and philosophies of the prosecution and law enforcement community.
+							</p>
+							 
+							<p>
+							Eventually, Phil was appointed second-in-command of the Weld County District Attorney’s Office. He was then elected as a member of the Colorado District Attorney’s Council State Governing Board where he served with each elected District Attorney in Colorado, members of the Governor’s Office, members of the Attorney General’s Office, members of the United States Attorney’s Office, and other high-ranking government officials.
+							</p>
+							​
+							<p>
+							Phil has been involved in numerous well-publicized cases and is highly respected in the legal community. With a "Never say die!" reputation, Phil is widely recognized as a legal expert and has taught at both the high school and college level. However, Mr. Clark is most proud of the recognition and appreciation he has received, in private, from his clients for his devotion to -- and success with -- championing their cases.
+							</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+   
+   
+   
+       <div class="modal fade" id="desirae-pop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-img">
+                            <img src="/images/desirae.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-inner-content">
+                            <div class="modal-title">
+                                <h3>Desirae Vannorsdel</h3>
+                                <p>SENIOR ASSOCIATE ATTORNEY</p>
+                                <p>FAMILY LAW</p>
+                            </div>
+                            <p>Desirae graduated in 2007 from the Washburn University School of Law in Topeka, Kansas, where she served as a Guardian Ad Litem and Court Appointed Special Advocate. She advocated strongly for her clients in need-of-care cases and helped set important precedent in Shawnee County Kansas District Court regarding parents struggling with mental illness.</p>
+							<p>
+							Prior to law school, Desirae received a B.A. in Psychology from the University of Colorado at Boulder where she received the honorable Imogene Jacobs Award and interned at the Boulder County Justice Center.
+							</p>
+							​
+							<p>
+							After graduating from Law School she worked as a Foster Care Coach in Larimer County and focused her work on helping at-risk children and families work through issues such as reunification, drug and alcohol recovery, and trauma recovery. 
+							</p>
+							 
+							<p>
+							Over her diverse career, Desirae has been awarded "Teacher of the Year," had her authored works published in treacher and legal training materials, and is a recognized expert in trauma awareness and training protocols.
+							</p>
+							​
+							<p>
+							Desirae’s life journey has made her a compassionate and empathetic attorney. She is an experienced listener who remains calm even in difficult situations, allowing her to strategize the best outcome for her clients.
+							</p>
+							 
+							<p>
+							Desirae is a 7th generation Colorado native and loves being in the Colorado mountains. She loves fishing, camping. and spending time with her family, which includes many 4-legged friends.
+							</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="jessica-pop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-img">
+                            <img src="/images/jessica.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-inner-content">
+                            <div class="modal-title">
+                                <h3>Jessica E. Trillo</h3>
+                                <p>ASSOCIATE ATTORNEY</p>
+                                <p>FAMILY LAW</p>
+                            </div>
+                            <p>Growing up in rural Oklahoma, Jessica attended and graduated from The University of Oklahoma in 2015 with her Bachelor of Business Administration. Always ambitious, she graduated with a double major in Supply Chain Management and Marketing. Thereafter, Jessica was conferred a Juris Doctor in 2018 from Roger Williams University, graduating Cum Laude, recognized from among the top legal scholars in her graduating law-school class.</p>
+							<p>
+							After law school, Jessica was selected to clerk for the Honorable Seven Jourd of the 8th Judicial District in Larimer County. Completing her clerkship, Jessica moved on to focus her legal career on the area of family law. She now enjoys working in all aspects of family law, including divorce, child custody matters, contempt proceedings, child and spousal support enforcement, and post-decree modifications.
+							</p>
+							​
+							<p>
+							Jessica is uniquely qualified to represent both husbands and wives – fathers and mothers – as she has broad experience representing both “sides” of family law issues. While Colorado’s laws are meant to be gender neutral, the legal system oftentimes struggles to maintain its mandated indifference. Simply put, Jessica understands the small nuances of representing both men and women.
+							</p>
+							​
+							<p>
+							Having dealt with many high-conflict matters, Jessica has proved herself adept at keeping her cool in adverse, chaotic legal situations.
+							</p>
+							 
+							<p>
+							When she is not in a courtroom, Jessica enjoys camping, hiking,. and lakeside activities with her husband and three dogs.
+							</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="nicholas-pop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="modal-img">
+                            <img src="/images/nicholas.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="modal-inner-content">
+                            <div class="modal-title">
+                                <h3>Nicholas De Castro</h3>
+                                <p>SENIOR ASSOCIATE ATTORNEY</p>
+                                <p>FAMILY LAW</p>
+                            </div>
+                            <p>Nick C. de Castro is an Associate Attorney at the Bagley Law Firm, where he handles criminal defense, civil litigation, and family law cases.</p>
+							<p>
+							Nick was born and raised in Baton Rouge, LA and attended Birmingham-Southern College in Birmingham, AL, receiving a double B.A. in Political Science and Music in 2017. Nick then earned his J.D. at the University of Alabama School of Law, a top-25 law school, in 2020.
+							</p>
+							​
+							<p>
+							Before joining the Bagley Law Firm, Nick served for two years as a Colorado Public Defender. Nick has handled hundreds of cases ranging from misdemeanors to complex DUI, domestic violence, and felony matters. Nick prides himself on his ability to negotiate extremely favorable deals for his clients, but he is never afraid to take a case to trial.
+							</p>
+							​
+							<p>
+							The grandson of political refugees who fled Cuba, Nick became an attorney to protect individual freedoms and to advocate for victims of overzealous government action and prosecution.
+							</p>
+							​
+							<p>
+							In his free time, Nick enjoys playing music and cheering for the Alabama Crimson Tide. He is a classically trained opera singer and loves to perform whenever the opportunity arises.
+							</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    </div>
     <!-- team end -->
     <!-- footer start -->
     <footer id="footer">
@@ -668,19 +963,21 @@
                 <div class="col-md-6">
                     <div class="footer-left">
                         <h3>Northern Colorado Office</h3>
-                        <p>The Evergreen Center<br />
+                        <p class="noMargin">The Evergreen Center<br />
                             630 15th Ave.<br />
                             Suite 300<br />
                             Longmont, CO 80501</p>
+							<p class="form-contact2"><a href="tel: (720) 547-2655">(720) 547-2655</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="footer-right">
                         <h3>Denver Metro Office</h3>
-                        <p>The Belmar Plaza<br />
+                        <p class="noMargin">The Belmar Plaza<br />
                             215 S. Wadsworth Blvd.<br />
                             Suite 410<br />
                             Lakewood, CO 80226</p>
+							<p class="form-contact2"><a href="tel: (720) 547-2655">(720) 547-2655</a></p>
                     </div>
                 </div>
             </div>
@@ -689,8 +986,8 @@
     <!-- footer end -->
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://bagleylawfirm.net/js/jquery.min.js"></script>
+    <script src="https://bagleylawfirm.net/js/bootstrap.min.js"></script>
 <!--
     <script>
         var myCarousel = document.querySelector('#myCarousel')

@@ -125,7 +125,7 @@ h2 span {
 .card-single {
     background: #4A5B74;
     padding: 35px 20px;
-    min-height: 520px;
+    /* min-height: 520px; */
 }
 .card-icon {
     background: #9b6e0e;
